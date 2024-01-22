@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en ">
+<head> 
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://kit.fontawesome.com/8c5ec8abf5.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="index.css">
+<body>
+  <div class="navbar">
+    <a href="index.html" class="active">
+      Home
+    </a>
+    <a href=service.html>
+      Service
+    </a>
+    <a href=contact.html>
+      Contact
+    </a>
+    <a href=about..html>About</a>
+  </div>
+  <main>
+    <div class="container">
+      <header>
+        <img id="logo" src="C:\\Users\OLUWATOBI DANIEL\Desktop\Login And Registration\images\image4.jpg" alt="Logo">
+        <span id="logo-text">
+          <H1>DANETECH</H1> 
+        </span>
+      </header>
+      <h2>An Innovative and 
+         Meticulous Web Developer with a Passion 
+         for Crafting Exceptional Digital Experiences and Graphic Designer with Expertise in Aluminum Fabrication
+        </h2>
+      <div class="container" id="Home">
+          <aside>
+            <div class="column">
+              <div class="underline"><h3 style="color: darkorange;">Service 1</h3></div>
+                <h4 style="color:blue">Web Development</h4>
+            <li>
+              Frontend: HTML5, CSS3, JavaScript, React
+            </li>
+            <li>
+              Responsive Design, Cross-Browser Compatibility
+            </li>
+            <li>
+              Web Accessibility (WCAG)
+             </li>
+             <img src="C:\\Users\OLUWATOBI DANIEL\Desktop\Login And Registration\images\image3.png" alt="image">
+          </aside>
+          <article>
+            <div class="column">
+              <div class="underline"><h3 style="color: darkorange;">Service 2</h3></div>
+              <h4 style="color: blue;">Grapic's Design</h4>
+              <li>
+                Branding and Logo Design
+              </li>
+              <li>
+                Print Design: Brochures, Flyers, Business Cards
+              </li>
+              <li>
+                Banners, Posters, Stickers, also with power point presentation e.t.c
+              </li>
+              <img src="C:\\Users\OLUWATOBI DANIEL\Desktop\Login And Registration\images\image0.png" alt="image">
+            </div>
+          </article>
+          <section>
+            <div class="column">
+            <div class="underline"><h3 style="color: darkorange;">Service 3</h3></div>
+                 <h4 style="color: blue;">Alluminum Fabric's</h4>
+              <li>
+                  In-depth knowledge of aluminum fabric materials 
+              </li>
+              <li>
+                  Expertise in conveying the unique qualities of aluminum fabrics 
+              </li>
+              <li>
+                  Best in all kind of alluminum Windows, Doors, Partitions e.t.c 
+              </li>
+              <img src="C:\\Users\OLUWATOBI DANIEL\Desktop\Login And Registration\images\image5.png" alt="image">
+            </div>
+          </section>
+    <div class="container:" id="Home">
+        <h1 style="color: darkorange;">Welcome to Our Website</h1>
+      </div>
+      <form>
+        <input type="text" style="width: 50%; background-color: blue;" placeholder="Enter your email">
+        <button onclick="getData()" class="button" style="width: 30%;">Subscribe</button>
+      </form>
+      <img src="C:\\Users\OLUWATOBI DANIEL\Desktop\Login And Registration\images\image6.png" style="width: 59px; height: 60px;" alt="image">
+    </div>
+  </main>
+    <p style="font-size:larger;color:rgb(231, 217, 217); border-radius:50px; width:40%; text-align:center; 
+    text-decoration:underline;  background-color: #641507;">&copy; 2023 Dantech. All rights reserved.</p>
+    <script>
+        function getData() {
+            var name = document.getElementById('button').value;
+            var heading = document.getElementById('text').innerText;
+            alert('Name: ' + name + '\nHeading: ' + heading);
+        }
+    </script>
+</body>
+</html>
